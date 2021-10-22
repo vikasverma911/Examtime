@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Form, Input, Button, Divider } from "antd";
 import QuestionForm from "./QuestionForm";
 import Hoc from "../hoc/hoc";
 import { createASNT } from "../store/actions/assignments";
-import { CloseOutlined } from '@ant-design/icons';
+import { PlusOutlined, CloseOutlined } from '@ant-design/icons';
 
 
 function AssignmentCreate(props) {
@@ -22,22 +22,25 @@ function AssignmentCreate(props) {
 
     const onFinish = values => {
         console.log('Received values of form:', values);
-        console.log(values.question)
+        const qq = Object.values(values.questions)
+        const aa = Object.values(values.answers)
+        const cc = Object.values(values.choices)
         const questions = [];
-        for (let i = 0; i < values.length; i += 1) {
+        for (let i = 0; i < qq.length; i += 1) {
             questions.push({
-                title: values.question[i],
-                choices: values.questions[i].choices.filter(el => el !== null),
-                answer: values.answers[i]
+                title: qq[i],
+                choices: cc[i].filter(el => el !== null),
+                answer: aa[i]
             });
         }
+        console.log(questions)
         const asnt = {
             teacher: props.username,
             title: values.title,
             questions
         };
-        // props.createASNT(props.token, asnt);
-    };  
+        props.createASNT(props.token, asnt);
+    };
 
     const questions = [];
     for (let i = 0; i < formCount; i += 1) {
@@ -70,7 +73,7 @@ function AssignmentCreate(props) {
 
             <Form.Item>
                 <Button type="secondary" onClick={add}>
-                    <CloseOutlined type="plus" /> Add question
+                    <PlusOutlined type="plus" /> Add question
                 </Button>
             </Form.Item>
 
@@ -94,7 +97,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        // createASNT: (token, asnt) => dispatch(createASNT(token, asnt))
+        createASNT: (token, asnt) => dispatch(createASNT(token, asnt))
     };
 };
 

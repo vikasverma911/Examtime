@@ -1,48 +1,60 @@
-import React from 'react';
 import { Form, Input, Button } from 'antd';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
-import Hoc from '../hoc/hoc';
+import React from 'react';
+import Hoc from "../hoc/hoc";
 
+const formItemLayout = {
+    labelCol: {
+        xs: { span: 24 },
+        sm: { span: 4 },
+    },
+    wrapperCol: {
+        xs: { span: 24 },
+        sm: { span: 20 },
+    },
+};
+const formItemLayoutWithOutLabel = {
+    wrapperCol: {
+        xs: { span: 24, offset: 0 },
+        sm: { span: 20, offset: 4 },
+    },
+};
 
 const QuestionForm = (props) => {
-
-    
     return (
         <Hoc>
-            <Form.Item label="Question: "  name={["question", `${props.id}`]} validateTrigger={['onChange', 'onBlur']} rules={[{ required: true, message: "Please input a question" }]} >
-                <Input placeholder="Question choice" />
+            <Form.Item label={"Question: "} name={["questions", `${props.id}`]} validateTrigger={['onChange', 'onBlur']} rules={[{ required: true, message: "Please enter a valid question" }]} >
+                <Input placeholder="Add a Question" />
             </Form.Item>
-
-            <Form.Item label="Answer: " name={["answers", `${props.id}`]} validateTrigger={['onChange', 'onBlur']} rules={[{ required: true, message: "Please input an answer to this question" }]} >
-                <Input placeholder="Answer choice" />
+            <Form.Item label={"Correct Answer: "} name={["answers", `${props.id}`]} validateTrigger={['onChange', 'onBlur']} rules={[{ required: true, message: "Please input a correct ans" }]} >
+                <Input placeholder="Add a Answer" />
             </Form.Item>
-
             <Form.List
                 name={["choices", `${props.id}`]}
+                validateTrigger={['resetField']}
             >
                 {(fields, { add, remove }, { errors }) => (
                     <>
-
                         {fields.map((field, index) => (
                             <Form.Item
+                                {...(index === 0 ? formItemLayout : formItemLayoutWithOutLabel)}
                                 label={index === 0 ? 'Choices' : ''}
                                 required={false}
-                                key={field.key}
+                                key={`ccc[${props.id}][${field.key}]`}
                             >
                                 <Form.Item
                                     {...field}
                                     validateTrigger={['onChange', 'onBlur']}
-
                                     rules={[
                                         {
                                             required: true,
                                             whitespace: true,
-                                            message: "Please input a choice to the question",
+                                            message: "Please input valid choices.",
                                         },
                                     ]}
                                     noStyle
                                 >
-                                    <Input placeholder="passenger name" style={{ width: '60%' }} />
+                                    <Input placeholder="Enter a choice" style={{ width: '60%' }} />
                                 </Form.Item>
                                 {fields.length > 1 ? (
                                     <MinusCircleOutlined
@@ -59,16 +71,14 @@ const QuestionForm = (props) => {
                                 style={{ width: '60%' }}
                                 icon={<PlusOutlined />}
                             >
-                                Add field
+                                Add an option
                             </Button>
                             <Form.ErrorList errors={errors} />
                         </Form.Item>
                     </>
                 )}
             </Form.List>
-
         </Hoc>
     );
 };
-
-export default QuestionForm
+export default QuestionForm;
