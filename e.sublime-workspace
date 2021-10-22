@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"join",
+				"joina"
+			],
+			[
+				"find",
+				"findb"
+			],
+			[
+				"fin",
+				"findb"
+			],
+			[
+				"pre",
+				"primeFactors"
+			],
+			[
+				"sei",
+				"SieveOfEratosthenes"
+			],
+			[
+				"ge",
+				"getsum"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Build: New Build System"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"pack",
+				"FastOlympicCoding: Make Stress"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: hello"
+			],
+			[
+				"snippet:he",
+				"Snippet: hello"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"c++",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"RUN ",
+				"Build With: C++ Single File - Run"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: template <typename ${1:_InputIter}>"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/hackerRank/cs3.cpp",
+		"/D/hackerRank/cs1.cpp",
+		"/D/hackerRank/march204.cpp",
+		"/D/hackerRank/input.txt",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/main/views.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/signals.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/urls.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/forms.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/models.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/Google_maps_apis/mixins.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/views.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/users/apps.py",
+		"/C/Users/Akash/Desktop/django_stuff/Google_maps_apis/main/urls.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/posts/templates/posts/post_list.html",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/posts/forms.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/posts/urls.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/posts/views.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/posts/models.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/templates/groups/group_list.html",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/templates/groups/group_form.html",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/templates/groups/group_detail.html",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/templates/groups/group_base.html",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/urls.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/views.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/groups/models.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/accounts/urls.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/accounts/views.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/accounts/forms.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/accounts/models.py",
+		"/C/Users/Akash/Desktop/DJANGO_COURSE_2.xx/21-Social_Clone_Project/simplesocial/simplesocial/views.py",
+		"/C/Users/Akash/Desktop/django_stuff/simplesocial/posts/views.py",
+		"/C/Users/Akash/Desktop/django_stuff/simplesocial/posts/templates/posts/post_detail.html",
+		"/E/sublime/input.txt",
+		"/E/sublime/p1.cpp",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/asd.sublime-snippet",
+		"/E/sublime/output.txt",
+		"/E/sublime/error.txt",
+		"/E/sublime/error",
+		"/E/sublime/compiling_error",
+		"/E/sublime/input",
+		"/E/sublime/output",
+		"/E/sublime/p1",
+		"/E/sublime/p2",
+		"/C/Users/Akash/Downloads/iris_project/iris_fl.py",
+		"/C/Users/Akash/Downloads/iris_project/prediction.html",
+		"/C/Users/Akash/Downloads/iris_project/home.html",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/hackerRank/cs.cpp",
+		"/E/sublime/p2.cpp",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/C++.sublime-settings",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/hello.sublime-snippet",
+		"/C/Users/Akash/Desktop/akasf.py",
+		"/C/Users/Akash/Documents/hello.py",
+		"/C/Users/Akash/Documents/hello.ipynb",
+		"/C/Users/Akash/Documents/diamond.cpp",
+		"/C/Users/Akash/Downloads/Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup (1).exe",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/av.sublime-build",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/akashverma.sublime-build",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/C/Users/Akash/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 69.6
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "e.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\sublime\\p1.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 175.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
